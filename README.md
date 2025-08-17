@@ -3,16 +3,16 @@
 Greenden is a **responsive plant store website** built using **HTML5, TailwindCSS, and JavaScript**.  
 It demonstrates how an e-commerce website works with modern UI, product filtering, and interactive features.  
 
-![Greenden Banner](./images/header-image.webp)  
-*(You can replace this banner with your own screenshot of the home page)*  
+![Greenden Banner](./screenshots/home.png)  
+
 
 ---
 
 ## 🔗 Live Demo  
-👉 [Visit Greenden Live](<your-live-link>)  
+👉 [Visit Greenden Live](https://srinithish-dev-lab.github.io/GreenDen-Tailwind/index.html)  
 
 ## 📂 Repository  
-👉 [GitHub Repo](https://github.com/<your-username>/<repo-name>)  
+👉 [GitHub Repo](https://github.com/srinithish-dev-lab/GreenDen-Tailwind)  
 
 ---
 
@@ -70,6 +70,4 @@ It demonstrates how an e-commerce website works with modern UI, product filterin
 ### 📩 Contact Page
 ![Contact Page](./screenshots/contact.png)
 
-*(Add screenshots inside a `screenshots/` folder and update paths accordingly)*  
 
----
