@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Greenden</title>
+  <!-- Tailwind CSS CDN LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Responsive Navbar -->
+  <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+    <h1 class="text-2xl"><a href="./index.html">Greenden</a></h1>
+
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:hidden" id="menuicon" fill="none" viewBox="0 0 24 24"
+      stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+
+    <ul class="flex gap-5 text-gray-600 hidden md:flex">
+      <li>
+        <a class="hover:underline hover:text-black" href="./index.html"> Home</a>
+      </li>
+      <li>
+        <a class="hover:underline hover:text-black" href="./product.html"> Products</a>
+      </li>
+      <li>
+        <a class="hover:underline hover:text-black" href="./contact.html"> Contact us</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Side navbar -->
+  <section id="sidenav" class="bg-green-100 fixed z-20 top-0 right-0 trasition-all duration-1000"
+    style="width: 50%; height: 100vh; right: -50%;">
+    <div class="text-right p-5">
+      <p class="inline cursor-pointer" id="closenav">X</p>
+    </div>
+    <ul class="flex flex-col gap-10 items-center text-gray-600">
+      <li>
+        <a class="hover:underline hover:text-black" href="./index.html"> Home</a>
+      </li>
+      <li>
+        <a class="hover:underline hover:text-black" href="./product.html"> Products</a>
+      </li>
+      <li>
+        <a class="hover:underline hover:text-black" href="./contact.html"> Contact us</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Products Section -->
+  <section class="text-center">
+    <h1 class="text-3xl font-bold mt-10">Our Products</h1>
+
+    <input id="search" type="text" class="border border-black m-3 p-2" style="width: 70%;" placeholder="Search for a Product..">
+    <br>
+
+    <div id="product-container" class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+
+      <div>
+        <img src="./images/Best_seller_1.jpg" alt="Bellflower"
+          class="inline hover:shadow-xl hover: transform hover:-translate-y-2">
+        <h1>Bellflower Plant</h1>
+        <p>$20</p>
+      </div>
+
+      <div>
+        <img src="./images/Best_seller_2.jpg" alt="Rose"
+          class="inline hover:shadow-xl hover: transform hover:-translate-y-2">
+        <h1>Rose Plant</h1>
+        <p>$15</p>
+      </div>
+
+      <div>
+        <img src="./images/Best_seller_3.jpg" alt="Tulips"
+          class="inline hover:shadow-xl hover: transform  hover:-translate-y-2">
+        <h1>Tulips Plant</h1>
+        <p>$30</p>
+      </div>
+
+      <div>
+        <img src="./images/Best_seller_4.jpg" alt="Snake"
+          class="inline hover:shadow-xl hover: transform  hover:-translate-y-2">
+        <h1>Snake Plant</h1>
+        <p>$12</p>
+      </div>
+
+      <div>
+        <img src="./images/Best_seller_1.jpg" alt="Bellflower"
+          class="inline hover:shadow-xl hover: transform hover:-translate-y-2">
+        <h1>Bellflower Plant</h1>
+        <p>$20</p>
+      </div>
+
+      <div>
+        <img src="./images/Best_seller_2.jpg" alt="Rose"
+          class="inline hover:shadow-xl hover: transform hover:-translate-y-2">
+        <h1>Rose Plant</h1>
+        <p>$15</p>
+      </div>
+
+      <div>
+        <img src="./images/Best_seller_3.jpg" alt="Tulips"
+          class="inline hover:shadow-xl hover: transform  hover:-translate-y-2">
+        <h1>Tulips Plant</h1>
+        <p>$30</p>
+      </div>
+
+      <div>
+        <img src="./images/Best_seller_4.jpg" alt="Snake"
+          class="inline hover:shadow-xl hover: transform  hover:-translate-y-2">
+        <h1>Snake Plant</h1>
+        <p>$12</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="bg-green-100 p-10 mt-5 flex flex-col gap-5 mt-10">
+    <h1 class="text-4xl font-bold">Greenden</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, vero voluptates delectus quos aspernatur
+      doloremque inventore?</p>
+    <p>&copy;2025 Greenden.com</p>
+  </section>
+
+
+  <script src="./product.js"></script>
+</body>
+
+</html>
