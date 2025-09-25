@@ -9,7 +9,7 @@ It demonstrates how an e-commerce website works with modern UI, product filterin
 ---
 
 ## 🔗 Live Demo  
-👉 [Visit Greenden Live](https://srinithish-dev-lab.github.io/GreenDen-Tailwind/index.html)  
+👉 [Visit Greenden Live](https://green-den-tailwind-delta.vercel.app/) 
 
 ## 📂 Repository  
 👉 [GitHub Repo](https://github.com/srinithish-dev-lab/GreenDen-Tailwind)  
